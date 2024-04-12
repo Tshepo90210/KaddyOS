@@ -1,0 +1,407 @@
+html {
+    background-image: url('img/Wallpaper.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: center;
+}
+#mydiv {
+    position: absolute;
+    z-index: 9;
+  }
+  
+  #mydivheader {
+    cursor: move;
+    z-index: 10;
+  }
+.main-folder {
+    display: grid;
+    grid-template-rows: 20px 10px;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.folder1 {
+    display: grid;
+    grid-template-rows: 30px 40px 200px;
+    background-color: #D1D0D1;
+    width: 40%;
+    height: auto;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 3px 3px;
+}
+.folder1-items1 {
+    width: 100%;
+    height: auto;
+    background-color: #D1D0D1;
+    border-radius: 30px 30px 0px 0px;
+    display: grid;
+    grid-template-columns: 5% 5% 5% 80%;
+    grid-gap: 1.5%;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.folder1-btns1 {
+    width: 70%;
+    height: 1rem;
+    background-color: #FF5F58;
+    border-radius: 50%;
+    align-self: center;
+    cursor: pointer;
+}
+.folder1-btns2 {
+    width: 70%;
+    height: 1rem;
+    background-color: #FFBE2F;
+    border-radius: 50%;
+    align-self: center;
+}
+.folder1-btns3 {
+    width: 70%;
+    height: 1rem;
+    background-color: #2AC940;
+    border-radius: 50%;
+    align-self: center;
+}
+.folder1-heading {
+    width: 100%;
+    height: auto;
+    background-color: #D1D0D1;
+    align-content: space-around;
+    border-radius: 30px 30px 30px 30px;
+}
+.folder1-items2 {
+    width: 100%;
+    height: auto;
+    background-color: #D1D0D1;
+    /* border-radius: 0px 0px 30px 30px; */
+    display: grid;
+    grid-template-columns: 15% 15% 65%;
+    grid-gap: 2%;
+    padding-left: 50px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-radius: 30px 30px 0px 0px;
+}
+.folder1-nav-btns1 {
+    width: 100%;
+    height: auto;
+    background-color: #DFDFDF;
+    align-content: center;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid black;
+}
+.folder1-nav-btns2 {
+    width: 100%;
+    height: auto;
+    background-color: #DFDFDF;
+    align-content: center;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid black;
+}
+.folder1-nav-btns3 {
+    width: 100%;
+    height: auto;
+    background-color: #D1D0D1;
+}
+.folder1-items3 {
+    width: 100%;
+    height: auto;
+    background-color: #ECECEC;
+    border-radius: 0px 0px 30px 30px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+.tab {
+    width: 100%;
+    height: 110px;
+    background-color: #ECECEC;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: 25px 25px 25px;
+    border-right: 1px solid black;
+    grid-row-gap: 3px;
+    border-radius: 0px 0px 30px 30px;
+}
+.tab button {
+    width: 111%;
+    height: auto;
+    text-align: start;
+}
+.tabcontent {
+    width: 100%;
+    height: auto;
+    background-color: #ECECEC;
+    display: grid;
+    grid-template-rows: 25px 25px 25px 25px;
+    grid-row-gap: 5px;
+    overflow: auto;
+    overscroll-behavior-y: contain;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 0px 0px 30px 0px;
+    border-left: 3px solid black;
+}
+.tabcontent a {
+    text-decoration: none;
+    color: black;
+}
+.file-number {
+    width: 95%;
+    height: auto; 
+    background-color: rgb(200, 200, 200);
+    border-radius: 5px 5px 5px 5px;
+    align-content: center;
+    color: white;
+    align-self: center;
+}
+.file-item1 {
+    width: 100%;
+    height: auto;
+    background-color: #ECECEC;
+    
+}
+.file-item1 a {
+    background-color: #ECECEC;
+}
+.file-item2 {
+    width: 100%;
+    height: auto;
+    background-color: #ECECEC;
+}
+.file-item3 {
+    width: 100%;
+    height: auto;
+    background-color: #ECECEC;
+}
+/* .file-location {
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: 25px 25px 25px;
+    border-right: 1px solid black;
+    grid-row-gap: 3px;
+}
+.file-location button {
+    width: 111%;
+    height: 25px;
+    text-align: start;
+}
+.file-number {
+    width: 95%;
+    height: 20px; 
+    background-color: rgb(200, 200, 200);
+    border-radius: 5px 5px 5px 5px;
+    align-content: center;
+    color: white;
+    align-self: center;
+}
+.file-name {
+    width: 100%;
+    height: 200px;
+    background-color: gold;
+    display: grid;
+    grid-template-rows: 25px 25px 25px 25px;
+    grid-row-gap: 3px;
+}
+.file-item1 {
+    width: 100%;
+    height: 25px;
+    background-color: red;
+}
+.file-item2 {
+    width: 100%;
+    height: 25px;
+    background-color: blue;
+}
+.file-item3 {
+    width: 100%;
+    height: 25px;
+    background-color: green;
+} */
+
+.footer {
+    display: grid;
+    grid-template-columns: 6% 6% 6% 6% 6% 20% 6% 15% 5%;
+    background-color: #D9D9D9;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;
+    padding-left: 10%;
+    grid-column-gap: 1%;
+    align-items: center;
+
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+.footer-item1 {
+    width: 100%;
+    height: auto;
+    background-color: #D9D9D9;
+    align-content: space-around;
+}
+.footer-item2 {
+    width: 100%;
+    height: auto;
+    background-color: #D9D9D9;
+    align-content: space-around;
+}
+.footer-item3 {
+    width: 100%;
+    height: auto;
+    background-color: #D9D9D9;
+    align-content: space-around;
+}
+.footer-item4 {
+    width: 100%;
+    height: auto;
+    background-color: #D9D9D9;
+    align-content: space-around;
+}
+.footer-item5 {
+    width: 100%;
+    height: auto;
+    background-color: #D9D9D9;
+    align-content: space-around;
+}
+/* css for kaddymail */
+#mail {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color: #D9D9D9;
+    margin-top: -400px;
+    border-radius: 15px 15px 15px 15px;
+    box-sizing: border-box;
+    display: none;
+    z-index: 10;
+    padding: 10px;
+  }
+  .text1 input{
+      width:90%;
+      height: 50px;
+      border-radius: 15px 15px 15px 15px;
+      box-sizing: border-box;
+  }
+  .text2 input{
+      width:90%;
+      height: 50px;
+      border-radius: 15px 15px 15px 15px;
+      box-sizing: border-box;
+  }
+  .text3 textarea{
+      width:90%;
+      height: 100px;
+      border-radius: 15px 15px 15px 15px;
+      padding: 10px;
+      box-sizing: border-box;
+  }
+  .send button {
+      width:90%;
+      height: 30px;
+      border-radius: 15px 15px 15px 15px;
+  }
+.footer-space {
+    width: 100%;
+    height: auto;
+    background-color: #D9D9D9;
+}
+.footer-item6 {
+    width: 100%;
+    height: auto;
+    background-color: #D9D9D9;
+    align-content: space-around;
+}
+/* css for yaya details */
+#yaya {
+    width: 200px;
+    height: 400px;
+    text-align: center;
+    background-color: #D9D9D9;
+    margin-top: -400px;
+    border-radius: 15px 15px 15px 15px;
+    box-sizing: border-box;
+    display: none;
+    z-index: 10;
+    padding: 10px;
+  }
+
+
+.footer-item7 {
+    width: 100%;
+    height: auto;
+    background-color: #D9D9D9;
+}
+.time {
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+  }
+  .display-date {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: end;
+  }
+  
+  .display-time {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #D9D9D9;
+    text-align: end;
+  }
+  
+.footer-item8 {
+    width: 100%;
+    height: auto;
+    background-color: #D9D9D9;
+    align-content: space-around;
+}
+
+
+/* css for the fullscreen pic starts here  */
+
+.photo-overlay {
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.595);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 10;
+}
+.close-photo-overlay {
+    font-size: 30px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    color: #fff;
+    z-index: 15;
+    padding: 6px 9px;
+    border: 1px solid #fff;
+    }
+
+/* .imgBox {
+    width: 20%;
+    margin: 0 auto;
+} */
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 0 0 15px 0;
+}
+
+/* css for the fullscreen pic ends here  */
