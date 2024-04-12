@@ -391,6 +391,7 @@ html {
     z-index: 15;
     padding: 6px 9px;
     border: 1px solid #fff;
+    cursor: pointer;
     }
 
 /* .imgBox {
